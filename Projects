@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">   
+    <head>
+        <meta charset="UTF-8">
+        <title>Elon Musk</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <main id="main">
+        <h1 id="title">Elon Reeve Musk</h1>
+        <h3>The African American man who is pushing the bounds of technology through tunnels, electrical care, and spare rockets</h3>
+
+        <div class="img-container" id="img-div">
+            <img id="image"
+            src="https://image.cnbcfm.com/api/v1/image/106261274-1574442599483rtx7a0ls.jpg?v=1574452686" alt="Elon" class="musk-image" target="_blank"/>
+
+            <div class="caption" id="img-caption">
+               Musk unveils the cybertruck in 2019. This all electric truck will begin production in 2023.  
+            </div>
+            <div class="life"
+            <p class="life-header.bold "></p>
+            <ul id="tribute-info">
+                <li><span class="bold">1971</span>- Elon was born in South Africa</li>
+                <li><span class="bold"></span>He used to read 10 hours per day</li>
+                <li><span class="bold"></span>Musk learned BASIC in 3 days</li>
+                <li><span class="bold">1983 </span>- He created a video game and sold it for 500$</li>
+                <li><span class="bold">At the age of 14</span>- Elon decided that his life mission is to save humanity</li>
+                <li><span class="bold"></span>After that he worked two intern jobs and brainstormed ideas</li>
+                <li><span class="bold"></span>He left Stanford PhD after 2 days</li>
+                <li><span class="bold">1995</span>- Musk starts Zip2 with his brother, coding it himself</li>
+                <li><span class="bold"></span>After sleeping in the office for 3 months, he raised his first investment money (3M), and later sold his share for $22 Million</li>
+                <li><span class="bold">1999</span>- He starts X.com - an online bank with his own money</li>
+                <li><span class="bold">2000</span>- He merges with his rival start-up Confinity to form PayPal</li>
+                <li><span class="bold"></span>Later that same year, he got ousted from PayPal as a CEO (while on honeymoon). Regardless of that, Musk continues to invest money in it</li>
+                <li><span class="bold">2001</span>- Elon moved to LA to be closer to the space industry and learned how to build rockets from books</li>
+                <li><span class="bold">2002</span>- After finding out that rockets are overpriced, the ambitious entrepreneur started Space X and got 250M from sale of PayPal</li>
+                <li><span class="bold">2004</span>- He founded likeminded people and started his venture into electric cars - TESLA</li>
+                <li><span class="bold">2006</span>- His first rocket was launched and exploded. Moreover, he won a NASA contracts to demo delivery and became the first investor of Solar City - his cousin's company</li>
+                <li><span class="bold">2007</span>- His second rocket was launched... and exploded again</li>
+                <li><span class="bold">2008</span>- The first TESLA customers got their Roadsters at $109,000. What is more, another failed attempt at launching a rocket brought both TESLA and Space X to the crisis of running out of money. However, his fourth launch turned successful which won him a NASA contract for 12 flights for $1,6 Billion. In december 2008, hours before going bankrupt, Elon found funding for TESLA.</li>
+                <li><span class="bold">2009</span>- Musk unveiled the Model S car</li>
+                <li><span class="bold">2010</span>- TESLA went public at 17$ per share, ending at $24 by the end of the day</li>
+            </ul>
+            <div class="quote-container">
+                <p class="quote">"Engineering is the closest thing to magic that existed in the world"</p>
+                <p class="quote-author">--Elon Musk</p>
+            </div>
+
+        </div>
+        <h3>
+            If you have time, you should read about this incredible specimen on his <a id="tribute-link" href="https://en.wikipedia.org/wiki/Elon_Musk" target="_blank">wikipedia page</a>
+        </h3>
+      
+    </main>
+    </body>
+</html>
+
+*{
+  padding: 0;
+  margin: 0;
+}
+h1{
+  padding: 20px;
+  font-family: Arial;
+
+}
+h3{
+  font-size: 20px;
+  background-color: #13151f;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+body{
+  background-color: #03050f
+  color: white;
+  font-family: apple-system; 
+  text-align: center;
+}
+
+.imgcontainer{
+ margin: auto;
+ padding: 30px;
+ background-color: #002;
+}
+
+.musk-image{
+  object-fit: contain;
+  border-radius: 10px;
+  max-width: 100%;
+  display: block;
+height: auto;
+margin: auto;
+
+}
+.caption{
+  padding-top: 5px;
+
+}
+.life{
+  text-align: left;
+  padding: 30px 70px;
+  max-width: 600px;
+  margin: 10px auto;
+  background-color: #002;
+  color: white;
+
+}
+.life-header{
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial;
+  padding: 30px;
+
+
+}
+.bold{
+  font-weight: bold;
+
+}
+li{
+  margin: 20px;
+
+}
+.quote{
+  margin: 30px 30px 5px;
+font-style: Italic;
+
+}
+.quote-author{
+  text-indent: 30px;
+}
+a{
+  color: #99f;
+}
